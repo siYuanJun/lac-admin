@@ -1,6 +1,6 @@
 <?php
 /*
- * 文件访问路径控制器 【未使用】
+ * 文件访问路径控制器
  * */
 
 namespace App\Http\Controllers;

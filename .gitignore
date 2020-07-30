@@ -2,11 +2,11 @@
 /.idea
 /node_modules
 /storage
+!/storage/app/*
 /vendor/*
 !/vendor/vendor.rar
 /public/hot
-/public/storage/*
-!/public/storage/app/*
+/public/storage
 /public/vendor/*
 !/public/vendor/vendor.rar
 /public/uploads/*
