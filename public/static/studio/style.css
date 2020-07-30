@@ -1,0 +1,10 @@
+.page-login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10%;
+}
+
+.page-login .panel {
+    width: 400px;
+}

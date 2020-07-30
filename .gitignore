@@ -1,0 +1,21 @@
+# built-in git rm -r --cached
+/.idea
+/node_modules
+/storage
+/vendor/*
+!/vendor/vendor.rar
+/public/hot
+/public/storage
+/public/vendor/*
+!/public/vendor/vendor.rar
+/public/uploads/*
+!/public/uploads/images/default.jpg
+
+# Default
+.env
+.env.backup
+.phpunit.result.cache
+Homestead.json
+Homestead.yaml
+npm-debug.log
+yarn-error.log
