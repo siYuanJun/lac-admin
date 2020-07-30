@@ -30,7 +30,7 @@ php artisan vendor:publish --provider="Encore\Admin\AdminServiceProvider"
 |:---|:---|:---|
 |encore/laravel-admin|后台地基组件|大赞！|
 |intervention/image|强大的图片处理控件|
-|dianwoung/large-file-upload|大文件上传组件|
+|dianwoung/large-file-upload|大文件上传组件|需执行 artisan 命令 `aetherupload:groups` 生成对应目录|
 |james.xue/login-captcha|登录验证码|登录页面样式可能改变|
 |laravel-admin-ext/china-distpicker|省市区三级联动选择组件|
 |laravel-admin-ext/ckeditor|富士文本编辑器|
