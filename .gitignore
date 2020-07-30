@@ -5,7 +5,8 @@
 /vendor/*
 !/vendor/vendor.rar
 /public/hot
-/public/storage
+/public/storage/*
+!/public/storage/app/*
 /public/vendor/*
 !/public/vendor/vendor.rar
 /public/uploads/*
