@@ -1,11 +1,19 @@
 <p align="center">
-    <img src="https://www.imga.cc/2019/11/02/ce27c89e034c6.jpg" />
+    <img src="https://s1.ax1x.com/2020/08/14/diu3WT.png" />
 </p>
+
 <h1 align="center">Lac-Admin</h1>
+
+<p align="center">
+<a href="http://blog.lvtcn.com"><img src="https://img.shields.io/badge/version-1.0.0-green"></a>
+<a href="https://github.com/laravel/laravel/tree/v6.2.0"><img src="https://img.shields.io/badge/laravel-6.2-%23ef3b2d"></a>
+<a href="https://laravel-admin.org/"><img src="https://img.shields.io/badge/laraveladmin-1.7-%234c5ec2"></a>
+<a href="http://blog.lvtcn.com"><img src="https://img.shields.io/badge/MYSQL-5.7-%2300758f"></a>
+</p>
 
 ### 项目介绍
 
-项目是经作者（siYuanJun）之前做过的一个 `知识付费系统` 的进一步整理，以 `Laravel^6.2` `Laravel-Admin^1.7` 为基础搭建的Web应用房屋模型， 可供 `Cms` `商城` `微信小程序` 便捷开发使用，因作者水平有限，还望使用者看到代码不优雅地方多多包涵 :see_no_evil:
+项目是经作者（siYuanJun）之前做过的一个 `知识付费系统` 的进一步整理，以 `Laravel^6.2` `Laravel-admin^1.7` 为基础搭建的Web应用房屋模型， 可供 `Cms` `商城` `微信小程序` 便捷开发使用，因作者水平有限，还望使用者看到代码不优雅地方多多包涵 :see_no_evil:
 <p align="left">
     <b>如果对您有帮助，您可以点右上角 "Star" 支持一下 谢谢！</b>
 </p>
