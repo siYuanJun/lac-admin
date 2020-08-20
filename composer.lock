@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "aaa6ff7c7b57699b680c55a34a98c6ec",
+    "content-hash": "b49339520cf83b95e820d1faa52d9de8",
     "packages": [
         {
             "name": "bacon/bacon-qr-code",
@@ -51,60 +51,6 @@
             "description": "BaconQrCode is a QR code generator for PHP.",
             "homepage": "https://github.com/Bacon/BaconQrCode",
             "time": "2017-10-17T09:59:25+00:00"
-        },
-        {
-            "name": "bayuly94/laravel-admin-ext-cropper",
-            "version": "1.0.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/bayuly94/cropper.git",
-                "reference": "2cbc4c02fc76208c649746fd49d6550ec0c01fc5"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/bayuly94/cropper/zipball/2cbc4c02fc76208c649746fd49d6550ec0c01fc5",
-                "reference": "2cbc4c02fc76208c649746fd49d6550ec0c01fc5",
-                "shasum": ""
-            },
-            "require": {
-                "encore/laravel-admin": "~1.6",
-                "php": ">=7.0.0"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "~6.0"
-            },
-            "type": "library",
-            "extra": {
-                "laravel": {
-                    "providers": [
-                        "Encore\\Cropper\\CropperServiceProvider"
-                    ]
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Encore\\Cropper\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "EVA09",
-                    "email": "940173803@qq.com"
-                }
-            ],
-            "description": "Integrate Cropper into laravel-admin",
-            "homepage": "https://github.com/EVA09/cropper",
-            "keywords": [
-                "cropper",
-                "extension",
-                "image",
-                "laravel-admin"
-            ],
-            "time": "2018-09-30T07:21:30+00:00"
         },
         {
             "name": "dianwoung/large-file-upload",
@@ -1026,6 +972,7 @@
                     "email": "jakub.onderka@gmail.com"
                 }
             ],
+            "abandoned": "php-parallel-lint/php-console-color",
             "time": "2018-09-29T17:23:10+00:00"
         },
         {
@@ -1072,6 +1019,7 @@
                 }
             ],
             "description": "Highlight PHP code in terminal",
+            "abandoned": "php-parallel-lint/php-console-highlighter",
             "time": "2018-09-29T18:48:56+00:00"
         },
         {
@@ -1127,6 +1075,58 @@
                 "login-captcha"
             ],
             "time": "2019-10-25T08:33:36+00:00"
+        },
+        {
+            "name": "jxlwqq/material-ui",
+            "version": "1.0.7",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/laravel-admin-extensions/material-ui.git",
+                "reference": "b14700437fe2a1aec0717ad51a1195d4cae227a6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/laravel-admin-extensions/material-ui/zipball/b14700437fe2a1aec0717ad51a1195d4cae227a6",
+                "reference": "b14700437fe2a1aec0717ad51a1195d4cae227a6",
+                "shasum": ""
+            },
+            "require": {
+                "encore/laravel-admin": ">=1.6.1",
+                "php": ">=7.0.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~6.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Jxlwqq\\MaterialUI\\MaterialUIServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Jxlwqq\\MaterialUI\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "jxlwqq",
+                    "email": "jxlwqq@gmail.com"
+                }
+            ],
+            "description": "material ui for laravel-admin",
+            "homepage": "https://github.com/jxlwqq/material-ui",
+            "keywords": [
+                "extension",
+                "laravel-admin"
+            ],
+            "time": "2019-04-28T10:50:40+00:00"
         },
         {
             "name": "laravel-admin-ext/china-distpicker",
@@ -2560,12 +2560,12 @@
             "version": "v1.1.1",
             "source": {
                 "type": "git",
-                "url": "https://github.com/nrk/predis.git",
+                "url": "https://github.com/predis/predis.git",
                 "reference": "f0210e38881631afeafb56ab43405a92cafd9fd1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nrk/predis/zipball/f0210e38881631afeafb56ab43405a92cafd9fd1",
+                "url": "https://api.github.com/repos/predis/predis/zipball/f0210e38881631afeafb56ab43405a92cafd9fd1",
                 "reference": "f0210e38881631afeafb56ab43405a92cafd9fd1",
                 "shasum": ""
             },
@@ -4587,6 +4587,60 @@
         }
     ],
     "packages-dev": [
+        {
+            "name": "bayuly94/laravel-admin-ext-cropper",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/bayuly94/cropper.git",
+                "reference": "2cbc4c02fc76208c649746fd49d6550ec0c01fc5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/bayuly94/cropper/zipball/2cbc4c02fc76208c649746fd49d6550ec0c01fc5",
+                "reference": "2cbc4c02fc76208c649746fd49d6550ec0c01fc5",
+                "shasum": ""
+            },
+            "require": {
+                "encore/laravel-admin": "~1.6",
+                "php": ">=7.0.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~6.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Encore\\Cropper\\CropperServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Encore\\Cropper\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "EVA09",
+                    "email": "940173803@qq.com"
+                }
+            ],
+            "description": "Integrate Cropper into laravel-admin",
+            "homepage": "https://github.com/EVA09/cropper",
+            "keywords": [
+                "cropper",
+                "extension",
+                "image",
+                "laravel-admin"
+            ],
+            "time": "2018-09-30T07:21:30+00:00"
+        },
         {
             "name": "doctrine/instantiator",
             "version": "1.2.0",

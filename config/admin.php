@@ -430,12 +430,17 @@ return [
 
             // Set to `false` if you want to disable this extension
             'enable' => true,
+        ],
+
+        'material-ui' => [
+            // If the value is set to false, this extension will be disabled
+            'enable' => true
         ]
     ],
 
 
     // 最原始的`按钮图标`形式
-    'grid_action_class' => \Encore\Admin\Grid\Displayers\Actions::class,
+//    'grid_action_class' => \Encore\Admin\Grid\Displayers\Actions::class,
 
     // 使用`下拉菜单`形式
 //    'grid_action_class' => \Encore\Admin\Grid\Displayers\DropdownActions::class,
