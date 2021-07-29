@@ -32,23 +32,6 @@ php artisan vendor:publish --provider="Encore\Admin\AdminServiceProvider"
 
 2. Mysql 数据库可直接把 /database/Lac-Admin.sql 文件导入即可。默认后台账号密码 super super
 
-### 扩展包介绍
-
-|名称|描述|备注|
-|:---|:---|:---|
-|encore/laravel-admin|后台地基组件|大赞！|
-|intervention/image|强大的图片处理控件|
-|dianwoung/large-file-upload|大文件上传组件|需执行 artisan 命令 `aetherupload:groups` 生成对应目录|
-|james.xue/login-captcha|登录验证码|登录页面样式可能改变|
-|laravel-admin-ext/china-distpicker|省市区三级联动选择组件|
-|laravel-admin-ext/ckeditor|富士文本编辑器|
-|laravel-admin-ext/cropper|图片上传裁剪包|
-|laravel-admin-ext/grid-lightbox|图片列表灯箱组件|
-|laravel-admin-ext/media-manager|文件管理扩展包|未启用|
-|laravel-admin-ext/redis-manager|Redis数据管理包|未启用|
-|maatwebsite/excel|文件导入导出|composer 拉取会出现问题，建议直接解压|
-|simplesoftwareio/simple-qrcode|二维码生成器工具|
-
 License
 ------------
 Licensed under [The MIT License (MIT)](LICENSE).
